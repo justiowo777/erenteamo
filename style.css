@@ -1,0 +1,43 @@
+body{
+    background-image:url("output.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+     margin-top: 30px;
+    margin-bottom: 40px;
+ font-family: "Orbitron", sans-serif;
+font-size: 50px;
+font-weight: bold;
+color: white;
+}
+.componentes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 25px;
+}
+}
+.card{
+    color: white;
+}
+img{
+    height: 300px;
+    
+
+}
+.card{
+    transition: .4s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}

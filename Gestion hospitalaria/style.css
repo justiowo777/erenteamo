@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e4f5fc, #f5fbff);
+    min-height: 100vh;
+    color: #25445a;
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.tarjeta-login {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(42, 115, 150, 0.15);
+}
+
+.encabezado {
+    background: #1686b2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    background: white;
+    color: #1686b2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    margin: 0 auto 12px;
+}
+
+.encabezado h1 {
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.encabezado p {
+    font-size: 14px;
+}
+
+.formulario {
+    padding: 30px;
+}
+
+.formulario h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.descripcion {
+    color: #718697;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #cbdde7;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+form input:focus {
+    border-color: #1686b2;
+    box-shadow: 0 0 0 3px rgba(22, 134, 178, 0.12);
+}
+
+.boton-ingresar {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #1686b2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.boton-ingresar:hover {
+    background: #106d92;
+}
+
+#mensaje {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.aviso {
+    text-align: center;
+    color: #8193a0;
+    font-size: 12px;
+    margin-top: 22px;
+}
+
+@media (max-width: 480px) {
+    .formulario {
+        padding: 24px 20px;
+    }
+
+    .encabezado h1 {
+        font-size: 24px;
+    }
+}

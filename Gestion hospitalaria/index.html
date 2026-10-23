@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión | Health Center</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+    <main class="contenedor">
+        <section class="tarjeta-login">
+
+            <div class="encabezado">
+                <div class="logo">✚</div>
+                <h1>Hospital Health Center</h1>
+                <p>Sistema de Gestión Hospitalaria</p>
+            </div>
+
+            <div class="formulario">
+                <h2>Bienvenido/a</h2>
+                <p class="descripcion">
+                    Ingresá tus datos para acceder al sistema.
+                </p>
+
+                <form id="formularioLogin">
+
+                    <label for="usuario">Usuario o correo electrónico</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        name="usuario"
+                        placeholder="Ingresá tu usuario"
+                        autocomplete="username"
+                        required
+                    >
+
+                    <label for="contrasena">Contraseña</label>
+                    <input
+                        type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        placeholder="Ingresá tu contraseña"
+                        autocomplete="current-password"
+                        required
+                    >
+
+                    <p id="mensaje" role="status"></p>
+
+                    <button type="submit" class="boton-ingresar">
+                        Iniciar sesión
+                    </button>
+
+                </form>
+
+                <p class="aviso">
+                    Acceso exclusivo para personal autorizado.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
